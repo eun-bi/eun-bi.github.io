@@ -3,8 +3,8 @@ title:  "[JAVA] mac os에 java 설치하기"
 date:   2019-02-15 22:34
 headerImage: false
 layout: post
-category: Java
-tag:  Java 
+category: blog
+tag:  Java
 author: eunbi
 comments: true
 ---

@@ -3,7 +3,7 @@ title:  "[Android] 앱 배포를 위한 Release APK, keystore 생성"
 date:   2017-09-06 23:55
 headerImage: false
 layout: post
-category: Android
+category: blog
 tag: Android
 author: eunbi
 comments: true

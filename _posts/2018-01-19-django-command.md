@@ -3,7 +3,7 @@ title:  "[Django] 자주 사용하는 명령어 정리"
 date:   2018-01-19 01:19
 headerImage: false
 layout: post
-category: Django
+category: blog
 tag: Django
 author: eunbi
 comments: true

@@ -3,7 +3,7 @@ title:  "[Android] Parallax scrolling tab / CoordinatorLayout"
 date:   2016-11-09 03:02
 headerImage: false
 layout: post
-category: Android
+category: blog
 tag: Android
 author: eunbi
 comments: true

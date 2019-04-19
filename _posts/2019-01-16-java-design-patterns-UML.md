@@ -3,7 +3,7 @@ title:  "[디자인패턴] UML(Unified Modeling Language)"
 date:   2019-01-16 21:02
 headerImage: false
 layout: post
-category: design pattern
+category: blog
 tag:  design pattern
 author: eunbi
 comments: true

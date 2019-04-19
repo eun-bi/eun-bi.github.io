@@ -3,7 +3,7 @@ title:  "[Django] Error loading MySQLdb module 에러 해결"
 date:   2018-05-23 04:17
 headerImage: false
 layout: post
-category: Django
+category: blog
 tag: Django
 author: eunbi
 comments: true

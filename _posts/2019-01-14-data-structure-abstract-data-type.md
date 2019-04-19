@@ -3,7 +3,7 @@ title:  "[자료구조] 추상자료형 (ADT:Abstract Data Type)"
 date:   2019-01-14 21:35
 headerImage: false
 layout: post
-category: data structure
+category: blog
 tag: data structure
 author: eunbi
 comments: true

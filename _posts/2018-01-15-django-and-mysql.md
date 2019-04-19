@@ -3,7 +3,7 @@ title:  "[Django] Django-MySQL 연동"
 date:   2018-01-15 03:33
 headerImage: false
 layout: post
-category: Django
+category: blog
 tag: Django
 author: eunbi
 comments: true

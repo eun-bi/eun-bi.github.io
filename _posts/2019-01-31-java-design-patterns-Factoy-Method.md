@@ -3,7 +3,7 @@ title:  "[디자인패턴] Factory Method 패턴"
 date:   2019-01-31 10:36
 headerImage: false
 layout: post
-category: design pattern
+category: blog
 tag:  design pattern
 author: eunbi
 comments: true
