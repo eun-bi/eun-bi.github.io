@@ -1,8 +1,11 @@
 ---
 title:  "[Android] finished with non-zero exit value 2 에러 해결"
-date:   2016-10-22 2:58:24
-categories: [Android]
-tags: [Android]
+date:   2016-10-22 02:58
+headerImage: false
+layout: post
+category: Android
+tag: Android
+author: eunbi
 comments: true
 ---
 

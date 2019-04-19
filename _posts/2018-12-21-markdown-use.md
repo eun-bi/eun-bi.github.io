@@ -1,8 +1,11 @@
 ---
 title:  "[Markdown] 마크다운 기본 문법 및 사용법"
-date:   2018-12-21 21:00:24
-categories: [blog]
-tags: [blog]
+date:   2018-12-21 21:00
+headerImage: false
+layout: post
+category: blog
+tag: blog
+author: eunbi
 comments: true
 ---
 

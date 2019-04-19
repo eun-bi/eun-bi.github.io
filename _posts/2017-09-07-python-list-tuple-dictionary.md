@@ -1,8 +1,11 @@
 ---
 title:  "[Python] 리스트/튜플/딕셔너리/집합 자료형"
-date:   2017-09-07 18:15:24
-categories: [Python]
-tags: [Python]
+date:   2017-09-07 18:15
+headerImage: false
+layout: post
+category: Python
+tag: Python
+author: eunbi
 comments: true
 ---
 

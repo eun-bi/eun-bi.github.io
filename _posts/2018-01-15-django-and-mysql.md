@@ -1,8 +1,11 @@
 ---
 title:  "[Django] Django-MySQL 연동"
-date:   2018-01-15 3:33:24
-categories: [Django]
-tags: [Django]
+date:   2018-01-15 03:33
+headerImage: false
+layout: post
+category: Django
+tag: Django
+author: eunbi
 comments: true
 ---
 

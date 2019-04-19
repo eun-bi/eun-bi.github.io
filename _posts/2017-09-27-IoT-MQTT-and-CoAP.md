@@ -1,8 +1,11 @@
 ---
 title:  "[IoT] 경량 프로토콜 MQTT / CoAP"
-date:   2017-09-27 20:28:24
-categories: [IoT]
-tags: [IoT]
+date:   2017-09-27 20:28
+headerImage: false
+layout: post
+category: IoT
+tag: IoT
+author: eunbi
 comments: true
 ---
 

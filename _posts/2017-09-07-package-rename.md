@@ -1,8 +1,11 @@
 ---
 title:  "[Android] Android 패키지명 변경"
-date:   2017-09-07 00:52:24
-categories: [Android]
-tags: [Android]
+date:   2017-09-07 00:52
+headerImage: false
+layout: post
+category: Android
+tag: Android
+author: eunbi
 comments: true
 ---
 

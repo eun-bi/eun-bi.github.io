@@ -1,8 +1,11 @@
 ---
 title:  "[자료구조] 추상자료형 (ADT:Abstract Data Type)"
-date:   2019-01-14 21:35:24
-categories: [자료구조]
-tags: [자료구조]
+date:   2019-01-14 21:35
+headerImage: false
+layout: post
+category: data structure
+tag: data structure
+author: eunbi
 comments: true
 ---
 

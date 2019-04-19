@@ -1,8 +1,11 @@
 ---
 title:  "[IoT] 라즈베리파이 / 아두이노"
-date:   2017-09-27 02:13:24
-categories: [IoT]
-tags: [IoT]
+date:   2017-09-27 02:13
+headerImage: false
+layout: post
+category: IoT
+tag: IoT
+author: eunbi
 comments: true
 ---
 

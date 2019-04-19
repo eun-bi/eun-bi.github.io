@@ -1,8 +1,11 @@
 ---
 title:  "[Django] 자주 사용하는 명령어 정리"
-date:   2018-01-19 1:19:24
-categories: [Django]
-tags: [Django]
+date:   2018-01-19 01:19
+headerImage: false
+layout: post
+category: Django
+tag: Django
+author: eunbi
 comments: true
 ---
 

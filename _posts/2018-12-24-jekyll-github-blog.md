@@ -1,8 +1,11 @@
 ---
 title:  "[Blog] Jekyll을 사용한 Github 블로그 정착기 + todo"
-date:   2018-12-24 10:36:24
-categories: [blog]
-tags: [blog]
+date:   2018-12-24 10:36
+headerImage: false
+layout: post
+category: blog
+tag: blog
+author: eunbi
 comments: true
 ---
 

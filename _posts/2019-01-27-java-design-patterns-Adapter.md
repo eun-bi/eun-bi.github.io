@@ -1,8 +1,11 @@
 ---
 title:  "[디자인패턴] Adapter 패턴"
-date:   2019-01-27 20:28:24
-categories: [디자인패턴]
-tags: [디자인패턴]
+date:   2019-01-27 20:28
+headerImage: false
+layout: post
+category: design pattern
+tag:  design pattern
+author: eunbi
 comments: true
 ---
 
