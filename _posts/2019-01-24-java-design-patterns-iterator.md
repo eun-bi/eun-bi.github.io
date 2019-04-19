@@ -17,7 +17,7 @@ comments: true
 - for 문에서 여러 원소가 모여있는 배열의 각 원소를 차례대로 선택하는데 사용되는 루프 변수 i의 역할  
 
 **클래스 다이어그램**  
-![image1](http://eun-bi.github.io/images/posting/0124_8.PNG)  
+![image1](http://eun-bi.github.io/assets/images/posting/0124_8.PNG)  
 - Iterator (반복자) : 원소를 하나씩 끄집어낼 때 사용할 공통된 메소드(hasNext() 와 next())를 선언한 인터페이스  
 - ConcreteIterator (구체적인 반복자) : Iterator 인터페이스를 실제로 구현하는 클래스  
 - Aggregate(집합체) : Iterator를 만들어내는 인터페이스  
@@ -25,7 +25,7 @@ comments: true
 
 **패턴 활용 예제**  
 책꽂이에 책을 넣은 후 순서대로 하나씩 끄집어 내어 책 이름을 표시하는 프로그램  
-![image2](http://eun-bi.github.io/images/posting/0127_1.PNG)  
+![image2](http://eun-bi.github.io/assets/images/posting/0127_1.PNG)  
 - BookShelf 클래스 : 책꽂이 (Aggregate 구현)
 - BookShelfIterator 클래스 : 책꽂이에서 책을 하나씩 끄집어낼 때 사용하는 Iterator  
 - code : [Github](https://github.com/eun-bi/java-design-patterns/tree/master/Iterator/src/example)  

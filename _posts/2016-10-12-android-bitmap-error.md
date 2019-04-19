@@ -1,7 +1,8 @@
 ---
 title:  "[Android] Bitmap too large to be uploaded into a texture 에러 해결"
-layout: post
 date:   2016-10-12 02:43
+headerImage: false
+layout: post
 category: Android
 tag: Android
 author: eunbi
@@ -28,7 +29,7 @@ comments: true
 이미지를 각 해상도에 맞는 폴더에 넣어주면 된다.  
 
 
-![image1](http://eun-bi.github.io/images/posting/1224_1.png)
+![image1](http://eun-bi.github.io/assets/images/posting/1224_1.png)
 
 이렇게 해 놓으면 알아서 디바이스에 맞는 해상도 이미지를 제공해주는 것 같다.(?)  
 dp 개념도 언제 확실히 정리해야겠다.  

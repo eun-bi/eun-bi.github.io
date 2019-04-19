@@ -17,7 +17,7 @@ comments: true
 
 ### **MQTT (Message Queue for Telemetry Transport)**
 
-![image1](http://eun-bi.github.io/images/posting/1224_7.png)
+![image1](http://eun-bi.github.io/assets/images/posting/1224_7.png)
 
 - Publish-Subscribe 모델
   - Publisher가 Topic을 발행하면 Topic을 구독하는 모든 클라이언트에게 message를 전송한다.
@@ -28,7 +28,7 @@ comments: true
    - 대표적인 MQTT Broker 프로그램 : ‘Mosuitto’, ‘RabbitMQ’ 등
 
 - TCP 기반  
-![image2](http://eun-bi.github.io/images/posting/1224_8.png)  
+![image2](http://eun-bi.github.io/assets/images/posting/1224_8.png)  
 
 - 세 단계의 QOS(Quality of Service)를 제공
 : 장치들의 처리 능력, 네트워크 대역폭, 메시지 오버헤드 등 주변상황에 맞게 시스템이 동작하기 위함
@@ -47,7 +47,7 @@ comments: true
 
 ### **CoAP (Constrained Application Protocol)**
 
-![image3](http://eun-bi.github.io/images/posting/1224_9.png)
+![image3](http://eun-bi.github.io/assets/images/posting/1224_9.png)
 
 - Request-Response 모델 (HTTP와 동일)
 - REST 구조 기반  
@@ -58,12 +58,12 @@ comments: true
   - 수신자가 수신한 자료나 요청을 처리할 수 없을 경우에는 승인 메시지 대신 리셋 메시지를 전송
   - 비확인형 메시지는 주기적으로 센서 자료 값을 얻어오는 경우처럼 모니터링 방식의 경우 확인이나 응답도 요구되지 않는 메시지에 사용
 - UDP 기반  
-![image4](http://eun-bi.github.io/images/posting/1224_10.png)
+![image4](http://eun-bi.github.io/assets/images/posting/1224_10.png)
 
 
 ### **MQTT와 CoAP 비교**
 
-![image4](http://eun-bi.github.io/images/posting/1224_11.png)
+![image4](http://eun-bi.github.io/assets/images/posting/1224_11.png)
 
 
 

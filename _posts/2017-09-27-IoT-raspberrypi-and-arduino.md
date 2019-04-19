@@ -17,7 +17,7 @@ comments: true
 
 
 #### **라즈베리 파이 (Raspberry Pi)**
-![image1](http://eun-bi.github.io/images/posting/1224_4.png)
+![image1](http://eun-bi.github.io/assets/images/posting/1224_4.png)
 
 - 랜선을 연결할 수 있는 이더넷 포트 존재
 - 마우스, 키보드를 연결하기 위한 USB 포트 / 모니터를 연결하기 위한 HDMI 포트 존재
@@ -29,7 +29,7 @@ comments: true
 
 #### **아두이노 (Arduino)**
 
-![image2](http://eun-bi.github.io/images/posting/1224_5.png)
+![image2](http://eun-bi.github.io/assets/images/posting/1224_5.png)
 
 -  다양한 기능을 활성화하기 위해 쉴드를 연결해서 사용  
 → 이더넷 쉴드, GPS 쉴드, 와이파이 쉴드,모터 쉴드 등등 용도에 맞는 쉴드를 장착해서 사용함
@@ -41,7 +41,7 @@ comments: true
 
 #### **라즈베리파이 / 아두이노 비교**  
 
-![image3](http://eun-bi.github.io/images/posting/1224_6.png)  
+![image3](http://eun-bi.github.io/assets/images/posting/1224_6.png)  
 
 
 #### **그 외 오픈하드웨어 플랫폼**  

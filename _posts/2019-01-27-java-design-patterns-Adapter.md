@@ -18,10 +18,10 @@ comments: true
 
 **클래스 다이어그램**  
 1. 상속을 이용한 Adapter 패턴  
-![image1](http://eun-bi.github.io/images/posting/0129_1.PNG)  
+![image1](http://eun-bi.github.io/assets/images/posting/0129_1.PNG)  
 : 필요한 메소드를 가지는 인터페이스를 구현(implements)하고 이미 제공되어 있는 클래스를 상속(extends) 받아 구현  
 2. 위임을 이용한 Adpater 패턴  
-![image2](http://eun-bi.github.io/images/posting/0129_2.PNG)  
+![image2](http://eun-bi.github.io/assets/images/posting/0129_2.PNG)  
 : 필요한 메소드를 가지는 추상메소드를 상속(extends)받고 이미 제공되어 있는 클래스를 인스턴스화하여 구현  
 
 - Target(대상) : 필요한 메소드를 제공(필요한 것)  
@@ -35,7 +35,7 @@ comments: true
 (Banner 클래스라는 기존의 클래스를 이용해서, 필요한 인터페이스(클래스)인 Print를 구현하는 PrintBanner 클래스를 이용해 일을 처리하는 프로그램)
 
 1. 상속을 이용한 Adapter 패턴  
-![image3](http://eun-bi.github.io/images/posting/0129_3.PNG)
+![image3](http://eun-bi.github.io/assets/images/posting/0129_3.PNG)
 code : [Github (example1_inheritance)](https://github.com/eun-bi/java-design-patterns/tree/master/Adapter/src/example1_inheritance)  
 
 - Banner 클래스 (Adaptee) : 이미 제공되어 있는 것  
@@ -43,7 +43,7 @@ code : [Github (example1_inheritance)](https://github.com/eun-bi/java-design-pat
 - PrintBanner 클래스 (Adapter) : 필요한 것(Print 인터페이스)을 사용하기 위해 이미 제공하는 것(Banner 클래스)을 재활용 함. 이 때, 필요한 것(Print 인터페이스)을 구현(implements)하고 이미 제공하는 것(Banner 클래스)을 상속(extends)받아 구현  
 
 2. 위임을 이용한 Adpater 패턴  
-![image4](http://eun-bi.github.io/images/posting/0129_4.PNG)  
+![image4](http://eun-bi.github.io/assets/images/posting/0129_4.PNG)  
 code : [Github (example2_delegation)](https://github.com/eun-bi/java-design-patterns/tree/master/Adapter/src/example2_delegation)  
 
 - Banner 클래스 (Adaptee) : 이미 제공되어 있는 것  
@@ -56,7 +56,7 @@ code : [Github (example2_delegation)](https://github.com/eun-bi/java-design-patt
 "프로퍼티이름=값" 형식의 내용을 갖는 파일로부터 값을 읽어오거나 설정하는데 사용하는 클래스인 java.util.Properties를 이용해 파일을 읽고 쓰는 프로그램  
 
 1. 상속을 이용한 Adapter 패턴  
-![image5](http://eun-bi.github.io/images/posting/0129_5.PNG)  
+![image5](http://eun-bi.github.io/assets/images/posting/0129_5.PNG)  
 code : [Github (application1_inheritance)](https://github.com/eun-bi/java-design-patterns/tree/master/Adapter/src/application1_inheritance)  
 
 - java.util.Properties (Adaptee) : 이미 제공되는 것  
@@ -64,7 +64,7 @@ code : [Github (application1_inheritance)](https://github.com/eun-bi/java-design
 - FileProperties (Adapter) :  필요한 메소드는 FileIO에 정의한 메소드들인데 이미 제공되는 클래스인 java.util.Properties에서 제공하므로 Properties 클래스의 메소드를 재활용 함. 이 때, FileIO 인터페이스를 구현(implements)하고 Properties 클래스를 상속(extends)받아 구현  
 
 2. 위임을 이용한 Adapter 패턴  
-![image6](http://eun-bi.github.io/images/posting/0129_6.PNG)  
+![image6](http://eun-bi.github.io/assets/images/posting/0129_6.PNG)  
 code : [Github (application2_delegation)](https://github.com/eun-bi/java-design-patterns/tree/master/Adapter/src/application2_delegation)  
 
 - java.util.Properties (Adaptee) : 이미 제공되는 것  

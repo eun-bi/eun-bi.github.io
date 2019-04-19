@@ -21,7 +21,7 @@ key가 생성될 path, password, 개발자 정보를 적은 후 OK
 
 또한, 프로젝트 파일 > app 경로에 apk 파일이 추출된 것을 확인할 수 있음!
 
-![image](http://eun-bi.github.io/images/posting/1224_2.png)
+![image](http://eun-bi.github.io/assets/images/posting/1224_2.png)
 
 
 **successfully !**

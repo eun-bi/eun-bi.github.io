@@ -12,7 +12,7 @@ comments: true
 패키지 디렉토리를 선택해서 개별적으로 수정하기 위해서는
 안드로이드 스튜디오 내에서 패키지의 논리적구조를 햡쳐서 보여주는 옵션을 해제해줘야 한다.
 
-![image](http://eun-bi.github.io/images/posting/1224_3.png)  
+![image](http://eun-bi.github.io/assets/images/posting/1224_3.png)  
 
 `Compact Empty Middle Packages` 체크를 해제!
 

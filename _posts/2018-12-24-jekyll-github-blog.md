@@ -47,7 +47,7 @@ comments: true
 **+ 19.01.24 추가**  
 - **검색엔진에 등록**  
 : Jekyll 로 만든 깃허브 블로그는 검색할 시에 안 나와서 따로 등록을 해줘야 한다.. 수동으로 하나하나 설정해가는 재미 ^^ .. 그래도 다행인 것을 필요한 `sitemap.xml` 과 `feed.xml`파일이 내가 적용한 테마에는 생성되어 있어서 따로 작성하지 않아도 되었다. google에서 검색할 경우 노출되게 하기 위해 [Google Search Console](https://search.google.com/search-console/about?hl=ko&utm_source=wmx&utm_medium=wmx-welcome)에 사이트맵을 등록하였다.
-![image1](http://eun-bi.github.io/images/posting/0124_9.PNG)  
+![image1](http://eun-bi.github.io/assets/images/posting/0124_9.PNG)  
 또한, 네이버에서도 검색이 가능하도록 [네이버 웹마스터도구](webmastertool.naver.com)에 사이트를 등록하였다. (아직 등록 확인 중.. 1/26 현재 등록은 되었지만 뜨는 페이지가 있고 안 뜨는 페이지가 있음 ..?)
 
 - **광고를 위한 Google AdSense 사용**  

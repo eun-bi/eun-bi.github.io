@@ -32,7 +32,7 @@ Jekyll 을 이용해 개발 기록을 남기기 위한 Github 블로그를 새�
 `###제목3`
 `####제목4`
 `#####제목5`
-![image1](http://eun-bi.github.io/images/posting/1221_2.PNG)
+![image1](http://eun-bi.github.io/assets/images/posting/1221_2.PNG)
 
 markdown 에서는 위와 같이 제목을 표시할 때는 간편하게 글자 앞에 **#** 을 달면 된다.
 html 에서 h 태그와 같은 효과로, #을 추가할수록 글자 크기가 작아진다.  
@@ -90,7 +90,7 @@ background에 색상을 주어 글자를 강조를 할 수도 있다. 이 경우
 `<http://google.com>`  
 `[구글](http://google.com)`  
 
-![image1](http://eun-bi.github.io/images/posting/1221_4.PNG)
+![image1](http://eun-bi.github.io/assets/images/posting/1221_4.PNG)
 
 이메일 주소나 url 링크를 걸기 위해서는 주소 양 옆에 <>를 붙여준다.  
 만약 직접 url을 표시하는 대신 글자에 링크를 달기 위해서는 글자 양쪽을 []로 감싸고 옆에 url을 ()안에 작성한다.  
@@ -98,7 +98,7 @@ background에 색상을 주어 글자를 강조를 할 수도 있다. 이 경우
 
 ### **소스 코드 추가**
 
-![image1](http://eun-bi.github.io/images/posting/1221_5.PNG)
+![image1](http://eun-bi.github.io/assets/images/posting/1221_5.PNG)
 
 ```python
 print('hello')

@@ -16,7 +16,7 @@ comments: true
 
 
 **클래스 다이어그램**  
-![image1](http://eun-bi.github.io/images/posting/0131_1.PNG)  
+![image1](http://eun-bi.github.io/assets/images/posting/0131_1.PNG)  
 
 - Product (제품) : 제품을 표현한 추상 클래스  
 - ConcreteProduct (구체적 제품) : 추상 클래스를 상속받아 구현한 클래스로 구체적인 제품을 나타내는 클래스  
@@ -27,7 +27,7 @@ comments: true
 
 Factory Method가 선언되어 있는 추상 클래스를 상속받은 하위 클래스에서 실제로 인스턴스를 생성하는 Factory Method 패턴을 이용해 IDCardFactory 공장을 세우고 IDCard 를 생산하고 사용하는 프로그램  
 
-![image2](http://eun-bi.github.io/images/posting/0131_2.PNG)  
+![image2](http://eun-bi.github.io/assets/images/posting/0131_2.PNG)  
 code : [Github](https://github.com/eun-bi/java-design-patterns/tree/master/Factory-Method/src)  
 
 - Factory 클래스 : createProduct() 메소드(제품 생산), registerProduct() 메소드 (제품 등록) 선언으로 인스턴스를 만드는 방법을 명시하였으므로 Factory method  

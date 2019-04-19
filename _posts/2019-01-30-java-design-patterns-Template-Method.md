@@ -15,7 +15,7 @@ comments: true
 
 
 **클래스 다이어그램**  
-![image1](http://eun-bi.github.io/images/posting/0130_1.PNG)  
+![image1](http://eun-bi.github.io/assets/images/posting/0130_1.PNG)  
 
 - AbstractClass(추상 클래스) : 추상 메소드들을 호출한 템플릿 메소드 구현한 클래스로 처리의 흐름을 결정  
 - ConcreteClass(구체적 클래스) : 추상 클래스를 상속받아 구현한 클래스로 구체적인 내용을 결정  
@@ -24,7 +24,7 @@ comments: true
 
 Template Method가 선언되어 있는 추상 클래스를 상속받은 하위 클래스에서 실제로 일을 처리하는 Template Method 패턴을 이용해 문자열 상하좌우에 문자를 붙여서 출력하는 프로그램  
 
-![image2](http://eun-bi.github.io/images/posting/0130_2.PNG)  
+![image2](http://eun-bi.github.io/assets/images/posting/0130_2.PNG)  
 code : [Github](https://github.com/eun-bi/java-design-patterns/tree/master/Template-Method/src/example)  
 
 - AbstractDisplay 클래스 (추상 클래스) : open(), print(), close() 는 추상메소드로 display() 메소드안에서 호출됨. 이 때, display() 메소드 내에서 처리의 흐름을 결정하였으므로 Template Method임

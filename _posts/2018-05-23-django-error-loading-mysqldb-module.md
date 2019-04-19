@@ -21,7 +21,7 @@ import error 가 떠서 mysqlclient 만 설치해주면 되는건데,,
 설치하려고 보니까  
 
 
-![image](http://eun-bi.github.io/images/posting/1225_4.png)  
+![image](http://eun-bi.github.io/assets/images/posting/1225_4.png)  
 
 이건 뭐지 ,, 생전 처음보는 에러 발견  
 
