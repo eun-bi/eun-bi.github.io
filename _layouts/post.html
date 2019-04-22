@@ -50,8 +50,15 @@ layout: page
     data-numposts="5">
 </div>
 
-{% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-{% if page.comments != false %}{% include disqus.html %}{% endif %}
+<!--discus-->
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}
+
+<!-- {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+<!-- {% if page.comments != false %}{% include disqus.html %}{% endif %} --> -->
 <!-- {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
 {% endif %} -->

@@ -30,6 +30,7 @@ permalink: /:title/
 
 # 댓글 기능을 위한 disqus 설정
 disqus_id: 'eun-bi'
+disqus_identifier: eunbihong
 
 # 방문자 통계를 위한 google_analytics
 google_analytics: 'UA-131268639-1'
