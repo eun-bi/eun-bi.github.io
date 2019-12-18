@@ -1,56 +1,19 @@
----
-layout: compress
----
 <!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.0.0
+    Copyright 2016-2019 Sylhare
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
 <html lang="en">
-<head>
-
-    {% if site.analytics-google %}
-        {% include analytics-google.html %}
-    {% endif %}
-
-    <meta charset="utf-8">
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-
-    <meta name=description content="{{ site.bio }}">
-    <meta name=author content="{{ site.name }}">
-    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
-    <meta property="og:type" content="profile">
-
-    {% seo %}
-
-    {% include favicon.html %}
-
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
-
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
-
-</head>
-<body>
-
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
-        {% endif %}
-
-            {{ content }}
-        </div>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="content">
+      {{ content }}
     </div>
-
-    {% include icons.html %}
-
-</body>
+    {% include footer.html %}
+  </body>
 
 <!-- 페이스북 댓글 플러그인 추가 -->
   <div id="fb-root"></div>
