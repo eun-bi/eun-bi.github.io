@@ -1,9 +1,19 @@
-# main text of home
-name: eunbi
-bio: Now or Never
+# SITE CONFIGURATION
 
-# twitter summary info
-description: A blog about technology and stuff related
+baseurl: "/Now-Or-Never"
+
+url: "https://eun-bi.github.io"
+
+
+# THEME-SPECIFIC CONFIGURATION
+
+title: Now Or Never                                   # site's title
+
+description: "A website with blog posts and pages"      # used by search engines
+
+avatar: assets/images/profile.png                         # Empty for no avatar in navbar
+
+favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # if it's an external image, update below for true
 # better with square images
@@ -19,118 +29,52 @@ resume-url: https://google.com/?q=my+resume
 url: https://eun-bi.github.io/
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+# Header and footer text
+header_text:                                            # Change Blog header text
+header_feature_image: assets/images/pexels/triangular.jpeg
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/eun-bi">eunbihong</a>
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: /assets/images/lineart.png                    # A bit transparent for color posts.
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
+# Features
+katex: true                                             # Enable if using math markup
+# 방문자 통계를 위한 google_analytics
+google_analytics: 'UA-131268639-1'                                # Tracking ID, e.g. "UA-000000-01"
 # 댓글 기능을 위한 disqus 설정
 disqus_id: 'eun-bi'
 disqus_identifier: eunbihong
+                                    # Your discus shortname for comments
+layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
+footer_icons:                                           # In _data/social.yml
+share_buttons:                                          # In _data/social.yml
+authors:                                                # In _data/authors.yml
+language:                                               # In _data/language.yml
 
-# 방문자 통계를 위한 google_analytics
-google_analytics: 'UA-131268639-1'
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
 
-# if you don't want comments in your posts, leave categories empty
-#disqus:
-#  shortname: mydisqus # enter this from your disqus account
-#  categories: [blog, project] # only show disqus for posts that have these categories
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
-# if you don't have any of social below, comment the line
-facebook: euunnnb
-#twitter: mytwitter
-# google: mygoogle
-instagram: euunnnb
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
-github: eun-bi
-# gitlab: mygitlab
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-#medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: euunnnb@gmail.com
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
-    eunbi:
-        name: eunbi
-        bio: Now or Never
-        external-image: false
-        picture: assets/images/profile.png
-        twitter: jamesfoster
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
-
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-projects: true
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
-
-jekyll-mentions:
-    base_url: https://github.com
-
-compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
-
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
