@@ -1,6 +1,10 @@
 ---
 
-layout: tags title: Tags permalink: /tags/
+layout: tags
+
+title: Tags
+
+permalink: /tags/
 
 icon: "fa-tags"
 ---------------

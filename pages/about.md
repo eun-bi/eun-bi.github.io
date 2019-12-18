@@ -1,6 +1,12 @@
 ---
 
-layout: page title: About permalink: /about/ feature-img: "assets/images/pexels/circuit.jpeg"
+layout: page
+
+title: About
+
+permalink: /about/
+
+feature-img: "assets/images/pexels/circuit.jpeg"
 
 tags: [About, Archive]
 ----------------------
